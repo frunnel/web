@@ -5,7 +5,7 @@
       <paths name="anna">
         <serverdata>
           <mappings>
-            <mapping deploy="~/public/web/" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/public/web/" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
