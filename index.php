@@ -8,4 +8,8 @@
 require_once 'conf.php';
 //conf.php faili kasutamine
 echo '<h1>Veebiprogrammerimine</h1>';
+//valmistame peatemplate
+$main_tmpl = new template('main');
+echo '<pre>';
+print_r($main_tmpl);
 ?>

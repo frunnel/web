@@ -8,4 +8,6 @@
 //vajalike konstantide defineerimine
 define('CLASSES_DIR', 'classes/'); //classes kataloogi nime konstand
 define('TMPL_DIR', 'tmpl/'); //tmpl kataloogi konstant
+//võtame kasutusel vajalikud failid
+require_once CLASSES_DIR.'template.php';
 ?>
