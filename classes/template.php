@@ -50,5 +50,10 @@ class template
     function readFile($f){
         $this->content = file_get_contents($f);
     }// readFile
+    //koostan paarid malli_elemendi_nimi => reaalne_väärtus
+    function set($name, $val)
+    {
+        $this -> vars[$name] = $val;
+    }
 }// klassi lõpp
 ?>
