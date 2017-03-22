@@ -35,7 +35,7 @@ class template
             $this->readFile($f);
         }
        //lisame TMPL_DIR kaustadele
-        $f = TMPL_DIR.$this -> file; //veel üks lokaalne asendus
+        $f = TMPL_DIR.$this -> file.'.html'; //veel üks lokaalne asendus
         if(file_exists($f) and is_file($f) and is_readable($f))
         {
             //loeme failist malli sisu
