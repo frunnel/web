@@ -55,5 +55,15 @@ class template
     {
         $this -> vars[$name] = $val;
     }
+    //set
+    // html malli täitmine reaalse sisuga
+    function parse(){
+        $str = $this->content; // lokaalne asendus
+        // vaatame malli elementide massiivi
+        foreach ($this->vars as $name=>$val){
+            $str = str_replace('{'.$name.'}', $val, $str);
+            echo $str;
+        }
+    }// parse
 }// klassi lõpp
 ?>
