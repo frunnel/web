@@ -23,10 +23,11 @@ class linkobject extends http
     }// konstruktor
     // andmete paari koostamine kujul
 	// nimi=väärtus&nimi1=väärtus1 jne
-	function addToLink($link, $nimi, $val){
+	function addToLink(&$link, $name, $val){
     		if($link != ''){
         			$link = $link.$this->delim;
         		}
- 		$link = $link.
+ 		$link = $link.fixUrl($name).$this->eq.fixUrl($val);
+        		echo $link;
      	}// addToLink
 }// klassi lõpp
