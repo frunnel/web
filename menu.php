@@ -15,4 +15,4 @@ $item->set('name', 'teine');
 $menu->add('items', $item->parse());
 // kui soovime pidevat asendamist, siis set funktsioon add asemel
 $main_tmpl->add('menu', $menu->parse());
- ?>
+?>

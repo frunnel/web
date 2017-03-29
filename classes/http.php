@@ -37,4 +37,3 @@ class http
  	}// initConst
 }// klassi lõpp
 ?>
-}

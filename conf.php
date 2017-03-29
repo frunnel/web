@@ -15,4 +15,6 @@ require_once CLASSES_DIR.'http.php';
 $http = new http();
 // testime linkobjecti tööd
 echo $http->baseUrl;
+//echo '<pre>';
+//print_r($http);
 ?>
