@@ -13,6 +13,6 @@ require_once CLASSES_DIR.'template.php';
 require_once CLASSES_DIR.'http.php';
 // loome vajalikud objektid projekti tööks
 $http = new http();
-// testime http objekti tööd
-echo REMOTE_ADDR;
+// testime linkobjecti tööd
+echo $http->baseUrl;
 ?>
