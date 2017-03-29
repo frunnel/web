@@ -11,4 +11,11 @@ define('TMPL_DIR', 'tmpl/'); //tmpl kataloogi konstant
 //võtame kasutusel vajalikud failid
 require_once CLASSES_DIR.'template.php';
 require_once CLASSES_DIR.'http.php';
+// loome vajalikud objektid projekti tööks
+$http = new http();
+$http->init();
+// testime http objekti tööd
+echo '<pre>';
+print_r($http);
+echo '</pre>';
 ?>
