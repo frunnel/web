@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="ikt">
+  <component name="PublishConfigData">
     <serverData>
-      <paths name="ikt">
+      <paths name="klaabu">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/friedrich/public_html/web/" local="$PROJECT_DIR$" web="/web/" />
+            <mapping deploy="/web" local="$PROJECT_DIR$" web="/~friedrich-felix.runnel/web" />
           </mappings>
         </serverdata>
       </paths>
