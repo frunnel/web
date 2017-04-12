@@ -50,5 +50,11 @@ function get($name)
  return false;
  }
  // get
+    // lisame vajalikud väärtused veebi kujul nimi=väärtus
+    function set($name, $val)
+    {
+        $this->vars[$name] = $val;
+    }
+    //set
 }// klassi lõpp
 ?>
