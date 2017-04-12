@@ -20,6 +20,6 @@ $http = new linkobject();
 // testime linkobjecti tööd
 echo $http->baseUrl.'<br />';
 echo $http->getLink(array('kasutaja'=>'admin', 'pass'=>'qwerty'));
-//echo '<pre>';
-//print_r($http);
+echo '<pre>';
+print_r($http);
 ?>
